@@ -1,0 +1,60 @@
+1  git checkout -b "feature-newFunc"
+    2  git add .
+    3  git commit -m "Added diary entry for feature work"
+    4  git add .
+    5  git commit -m "Added another diary entry for feature work"
+    6  git push
+    7  git checkout main
+    8  git merge feature-newFunc 
+    9  git push
+   10  git pull
+   11  git checkout expirement
+   12  git checkout experement
+   13  git checkout experiment
+   14  git log
+   15  git checkout main
+   16  git cherry-pick d58314c014e17c0f8091e4f715836e14815e443d
+   17  git push
+   18  git checkout dev
+   19  git log
+   20  git revert 7e9812494f2c2df534060a71792962be4d5cbab8
+   21  git revert 1a5d6d2f1f36d128e6b9a6a2236fdc0d1113638e
+   22  git push
+   23  git add .
+   24  git commit -m "reverted"
+   25  git checkout main
+   26  git add .
+   27  git commit -m "changed font"
+   28  git checkout feature-upload 
+   29  git diff
+   30  git diff main
+   31  git add .
+   32  git commit -m "changes"
+   33  git push
+   34  git checkout main
+   35  git merge feature-upload 
+   36  git commit -m "resolve conflict"
+   37  git merge feature-upload 
+   38  git push
+   39  git checkout documentation 
+   40  git rebase -i
+   41  git rebase -i HEAD~4
+   42  git rebase --abort
+   43  git rebase -i HEAD~4
+   44  git rebase --abort
+   45  git checkout documentation 
+   46  git checkout "documentation" 
+   47  git checkout --track upstream/documentation
+   48  git checkout origin/documentation
+   49  git checkout main
+   50  git branch
+   51  git pull
+   52  git branch
+   53  git checkout documentation
+   54  git checkout documentation --
+   55  git rebase -i HEAD~4
+   56  git checkout main
+   57  git merge documentation 
+   58  git push
+   59  touch git_comment.txt
+   60  history
